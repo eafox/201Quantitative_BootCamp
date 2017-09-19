@@ -1,2 +1,0 @@
-Hello, world
-This is to test merging of branches
