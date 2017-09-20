@@ -92,3 +92,10 @@ cbind(C,D)
 # but cbinding the 2 matrices won't work because they have a different number of rows
 
 ###############################################################################################
+
+#9.3.0.0.1
+x <- seq(1,27)
+dim(x) <- c(3,9)
+is.array(x)
+is.matrix(x)
+# The vector has been assigned the dimensions following c(... . It is now a 2D array which is a matrix 
