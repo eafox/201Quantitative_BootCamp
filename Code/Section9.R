@@ -99,3 +99,17 @@ dim(x) <- c(3,9)
 is.array(x)
 is.matrix(x)
 # The vector has been assigned the dimensions following c(... . It is now a 2D array which is a matrix 
+
+###############################################################################################
+
+#9.6.0.0.1
+HurricaneDF<-read.csv("http://kingaa.github.io/R_Tutorial/hurricanes.csv",comment.char='#')
+# Integers: Year, MinPressure_before, Minpressure_Updated.2014, Gender_MF, Category, alldeaths, NSAM, Elapsed.Yrs
+# Factors: Name, Source
+# Numbers: MasFem, ZMasFem, ZMinPressure_A, ZNDAM
+
+
+
+
+
+
