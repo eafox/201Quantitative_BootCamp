@@ -73,6 +73,22 @@ Pos<-which(w < mean(w))
 x[c(seq(1,length(x),3))]
 x[c(TRUE, FALSE)]
 
+###############################################################################################
 
+#9.2.1.0.1
+v<-c(1,2)
+x <- matrix(v,nrow = 2, ncol = 4)
 
+#9.2.1.0.1
+x<-matrix(rnorm(35),nrow = 5, ncol = 7)
 
+#9.2.2.0.1
+C <- cbind(1:3,4:6,5:7)
+D <- rbind(1:3,4:6)
+rbind(C,D)
+cbind(C,C)
+cbind(C,D)
+# rbinding the 2 matrices works because they have the same number of columns
+# but cbinding the 2 matrices won't work because they have a different number of rows
+
+###############################################################################################
