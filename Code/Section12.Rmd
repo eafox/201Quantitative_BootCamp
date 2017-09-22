@@ -49,13 +49,13 @@ plot(T,N)
 ```
 When T has a length of 1, only a single point it plotted
 ```{r}
-T<-numeric()
-N <- numeric(length(T))
-for (t in 1:length(T)) {
-  n <- a*n/(1+b*n)
-  N[t] <- n
-}
-plot(T,N)
+# T<-numeric()
+# N <- numeric(length(T))
+# for (t in 1:length(T)) {
+#   n <- a*n/(1+b*n)
+#   N[t] <- n
+# }
+# plot(T,N)
 ```
 When T is empty (or has a length of 0) an error is plotted instead of an empty graph because T has no length and vectors of different lengths cannot be used to plot x and y coordinates
 
