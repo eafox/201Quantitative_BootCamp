@@ -62,6 +62,7 @@ for (j in 1:5) {
     bankAccounts[i]<-interestRate*bankAccounts[i] + bankAccounts[i]
     #step 2 get calculate interest and add to accounts from step 1
   }
+  cat("\n",bankAccounts)
 }
 
 ##EXERCISE 7##

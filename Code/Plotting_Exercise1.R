@@ -54,6 +54,8 @@ par(mfrow=c(1,1), mar=c(3,3,3,1))
 #set dimensions
 barplot(rbind(counts_100,counts_1000),col = c("red","blue"),beside = T,names.arg = seq(65,72.5,by=.5),
         xlab = "Average height (inches)", ylab = "Count", ylim = c(0,500)) 
+#If min is 65.5 and max is 72.3, the range needs to be 65,72
+
 #Create the barplot
 legend(0,400,c("n=100","n=1000"),col=c("red","blue"),pch = 19)
 #Insert legend
