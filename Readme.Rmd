@@ -1,25 +1,38 @@
----
-title: "Readme.Rmd"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 # Quantitative Bootcamp 
 
 ### Beginning Assignment
-####Code
-* Section9.R, Section11.R, Section12.R - Exercises from tutorial (copies stored in Rmd format as well)
+Code
+* Section9.R, Section11.R, Section12.R - Exercises from tutorial (copies stored in Rmd format as well)  
+(https://kingaa.github.io/R_Tutorial/)
+* Intro1.R and Intro2.R - Scripts downloaded for aboved tutorial
+* Mdfd_Intro2.R and Mdfd2_Intro2.R - Modified version of Intro2.R for tutorial above
 
-####Results
-* 5 Screenshots of badges from R Code Schools
+
+Results
+* 5 Screenshots of badges from R Code Schools  
+(http://tryr.codeschool.com/)
+* Section9.pdf, Section11.pdf, Section12.pdf - Markdown files of tutorial write-ups
+* 11.1.0.0.6.pdf - Plot for section 11
+
+Data
+* ChlorellaGrowth.csv - For Intro2.R
+
+Sandbox
+* FirstFile.txt and SecondFile.txt - Used to set up github and test branching
 
 ### Day 1 Homework
-#### Code
-*
+Code
+* Bootcamp_Exercise1.R - For loops, control flows, compound interest
+* Plotting_Exercise1.R - Simulating average heights with different sample sizes
 
-####Results
+Results
+* Heights_Histogram - Output of Plotting_Exercises1.R
 
 ### Day 2 Exercises
+Code
+* GeometricGrowth.R - Using a for loop to simulate
+* LogisticGrowth.R - Modifying the above to include carrying capacity
+* LogisticGrowthFunction.R - Puts the logistic growth simulation into a function
+* SensitivityAnalysis.R - Vary one parameter of the above function to see how it affects the population size at a specific time
+

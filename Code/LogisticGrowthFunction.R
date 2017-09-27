@@ -5,7 +5,7 @@
 
 # Initial Values and Parameters #
 
-LogGrowth<-function(N0=10,rd=2,kk=200,ttMax=10){
+LogGrowth<-function(N0=10,rd=2,kk=200,ttMax=10,plot=TRUE){
   #simulate logistic growth
   NN<-matrix(NA,nrow=1,ncol=ttMax+1)
   NN[1]<-N0
@@ -15,7 +15,9 @@ LogGrowth<-function(N0=10,rd=2,kk=200,ttMax=10){
   }
   
   #plots get produced outside workspace
-  plot(0:ttMax,NN,xlab="Time",ylab="Population Size",col="blue")
+  if (plot==TRUE){
+    plot(0:ttMax,NN,xlab="Time",ylab="Population Size",col="blue")
+  }
   
   return(NN)
 }
@@ -24,7 +26,7 @@ LogGrowth<-function(N0=10,rd=2,kk=200,ttMax=10){
 
 NewVect<-LogGrowth()
 NewVect<-LogGrowth(10,2,300,100)
-NewVect<-LogGrowth(kk=400)
+NewVect<-LogGrowth(kk=400,plot=FALSE)
 
 # Visualize Results #
 
