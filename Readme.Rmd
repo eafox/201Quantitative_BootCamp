@@ -1,0 +1,25 @@
+---
+title: "Readme.Rmd"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Quantitative Bootcamp 
+
+### Beginning Assignment
+####Code
+* Section9.R, Section11.R, Section12.R - Exercises from tutorial (copies stored in Rmd format as well)
+
+####Results
+* 5 Screenshots of badges from R Code Schools
+
+### Day 1 Homework
+#### Code
+*
+
+####Results
+
+### Day 2 Exercises

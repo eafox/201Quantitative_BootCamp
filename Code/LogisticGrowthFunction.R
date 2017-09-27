@@ -22,8 +22,8 @@ LogGrowth<-function(N0=10,rd=2,kk=200,ttMax=10){
 
 # Perform Calculations #
 
-LogGrowth()
-LogGrowth(10,2,300,100)
+NewVect<-LogGrowth()
+NewVect<-LogGrowth(10,2,300,100)
 NewVect<-LogGrowth(kk=400)
 
 # Visualize Results #
