@@ -35,4 +35,18 @@ Code
 * LogisticGrowth.R - Modifying the above to include carrying capacity
 * LogisticGrowthFunction.R - Puts the logistic growth simulation into a function
 * SensitivityAnalysis.R - Vary one parameter of the above function to see how it affects the population size at a specific time
+* AnalyzeSNPdata.2017.student.R - From Kirk Lohmueller as an introduction to working with data sets
 
+Data
+* hapmap_CEU_r23a_chr2_ld-2.txt and pheno.sim.2014-2.txt - For Kirk's data anlysis script
+
+### Day 2 Homework
+Code
+* BootcampModeling_Exercises.R, BootcampModeling_ExerciseG.R, and BootcampModeling_Exercise_Bonus.R - Simulation exercises with Ricker model
+* Plotting_Exercise2.R - Analyzing data to make a QQ plot and other data to make a density plot
+
+Results
+* Ricker_ContourPlot.pdf - Result of BootcampModeling_ExerciseG.R
+* Bifurcation.pdf - Result of BootcampModeling_Exercise_Bonus.R
+* QQPlot.pdf - Result of Plotting_Exercise2.R
+* DensityPlot.pdf - Result 2 of Plotting_Exercise2.R
